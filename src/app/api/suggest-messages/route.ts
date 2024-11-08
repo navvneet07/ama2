@@ -3,7 +3,7 @@ import { StreamingTextResponse } from 'ai';
 import { NextResponse } from 'next/server';
 
 // Initialize Gemini AI
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_AI_KEY || '');
+const genAI = new GoogleGenerativeAI("AIzaSyDGqIKn76bAuydTTREDpmg0ojZ64uaJTPc");
 
 export const runtime = 'edge';
 
